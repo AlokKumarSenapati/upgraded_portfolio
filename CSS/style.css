@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5% 1% 5%;
+    background-color: #06002C;
+    color: white;
+}
+
+.nav-sec .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.nav-sec h1 {
+    color: #75F94C;
+}
+
+.nav-sec .menu li {
+    color: rgb(255, 255, 255);
+}
+
+.nav-sec .menu li:hover {
+    color: #FFC300;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hero-sec {
+    color: white;
+    padding: 1% 5% 1% 5%;
+    height: 78vh;
+    background-color: #06002C;
+}
+
+.hero-sec .hero-sec-div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.hero-sec .hero-sec-div1 h2 {
+    font-size: 60px;
+}
+
+.hero-sec .hero-sec-div1 h2 span {
+    color: #75F94C;
+}
+
+.hero-sec .hero-sec-div1 p {
+    font-size: 23px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+
+.hero-sec .hero-sec-div1 p span {
+    color: #FFC300;
+}
+
+.hero-sec .hero-sec-div1 button {
+    padding: 1% 5% 1% 5%;
+    background-color: #FFC300;
+    font-size: 23px;
+    font-weight: 550;
+    border: none;
+    border-radius: 30px;
+    margin-top: 25%;
+}
+
+.hero-sec .hero-sec-div1 button i {
+    font-size: 20px;
+}
+
+.hero-sec .hero-sec-div1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 4px solid #75F94C;
+}
+
+.hero-sec-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 25px;
+    padding-top: 1%;
+}
+
+.about-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5% 1% 5%;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.about-sec img {
+    width: 382px;
+    height: 382px;
+    border-radius: 100%;
+    border: 4px solid #75F94C;
+}
+
+.about-sec .about-me h2 {
+    font-size: 45px;
+    margin-bottom: 2%;
+    color: #1D154A;
+}
+
+.about-sec .about-me p {
+    font-size: 23px;
+    line-height: 1.5;
+    color: black;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.about-sec .about-me p span {
+    color: red;
+    font-weight: 800;
+}
+
+.skills-sec {
+    padding: 3% 5% 3% 5%;
+    background-color: #06002C;
+    color: white;
+}
+
+.skills-sec .skills_title {
+    color: #75F94C;
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+
+.skills-sec p {
+    font-size: 20px;
+}
+
+.skills-sec .skills {
+    display: flex;
+    margin-top: 3%;
+}
+
+.skills h3 {
+    color: #FFC300;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 24px;
+}
+
+.skills p {
+    color: white;
+    font-weight: 700;
+}
+
+.skills .skill-img-div {
+    margin-left: 7%;
+}
+
+.exp-sec {
+    padding: 3% 5% 3% 5%;
+}
+
+.exp-sec h2 {
+    color: #06002C;
+    font-size: 45px;
+    padding-bottom: 2%;
+}
+
+.exp-sec .exp1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.exp-sec .exp1 h3 {
+    padding-bottom: 1%;
+    font-size: 22px;
+}
+
+.exp-sec .exp1 p {
+    font-size: 18px;
+}
+
+.exp-sec .exp1 .exp-date {
+    font-size: 18px;
+    font-weight: 600;
+    color: #06002C;
+}
+.contact-sec {
+    padding: 3% 5% 3% 5%;
+    background-color: #06002C;
+    color: white;
+}
+.contact-sec h2{
+    color: #75F94C;
+    font-size: 45px;
+    padding-bottom: 2%;
+}
+.contact-sec p{
+    font-size: 25px;
+    padding-bottom: 1%;
+}
+.footer-sec{
+    background-color: #06002C;
+    color: white;
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    font-size: 20px;
+}
